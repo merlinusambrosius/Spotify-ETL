@@ -7,7 +7,7 @@ Build Your First Workflow (2-4 hours):
 - Loads: Uploads the cleaned JSON/CSV to your S3 bucket (using boto3, which you already know).
 
 Example skeleton DAG:Python
-
+```python
 from airflow import DAG
 from airflow.operators.python import PythonOperator
 from datetime import datetime
