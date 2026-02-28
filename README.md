@@ -1,5 +1,5 @@
 # Spotify ETL
-Spotify's API ETL project, scheduled ETL that pulls live music metadata.
+Spotify's API ETL project.  DAG scheduled ETL in Airflow/Docker that pulls live music metadata.
 Build Your First Workflow (2-4 hours):
 - Create a simple DAG file (Python script in your airflow/dags folder) that:
 - Extracts: Pulls song metadata from Spotify's API. (Get a free Spotify dev account at https://developer.spotify.com/, grab client ID/secret. Use spotipy library: pip install spotipy—it's easy for querying tracks/artists.)
